@@ -1,0 +1,7 @@
+services:
+  - type: web
+    runtime: static
+    name: vettrus-yongxing-showrooms
+    buildCommand: echo "Static HTML ready"
+    staticPublishPath: public
+    autoDeploy: false
